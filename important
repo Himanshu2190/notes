@@ -1,0 +1,28 @@
+Release build :
+
+flutter build apk --split-per-abi --no-shrink
+flutter build apk --split-per-abi --no-shrink --no-tree-shake-icons
+
+flutter build web --no-tree-shake-icons
+flutter build web --no-tree-shake-icons --base-href "/messenger/"
+flutter build web --web-renderer canvaskit --no-tree-shake-icons --base-href "/"
+
+
+SHA keys:
+
+1. keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+2. Open Gradlew in terminal > Run:     ./gradlew signingReport
+
+
+Firebase Notification Test:
+https://testfcm.com
+
+
+
+Run Flutter Web on Real Device:
+flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0
+My MacBook IP address : 192.168.1.194
+
+
+To connect device wireless:
+adb connect 192.168.1.250:37663
