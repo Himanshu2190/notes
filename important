@@ -26,3 +26,8 @@ My MacBook IP address : 192.168.1.194
 
 To connect device wireless:
 adb connect 192.168.1.250:37663
+
+
+HP Laptop SHA Keys:
+SHA 1 : 5f:08:b6:fb:d9:63:da:b1:53:b2:67:a0:c1:f9:3d:96:1b:c0:e7:d7
+SHA 256 : f5:6c:29:59:42:66:15:4d:fe:25:20:54:c3:b1:34:df:26:51:1c:4e:93:54:60:da:63:50:38:7a:14:70:65:16
